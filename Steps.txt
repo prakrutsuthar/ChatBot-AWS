@@ -1,0 +1,8 @@
+After installing nginx and gunicorn3, paste the nginx config in anyfile inside /etc/nginx/sites-enabled
+
+Then, sudo service nginx restart
+
+Then go to the project and then run the app using:
+gunicorn3 app:app
+
+Make sure to write correct public URL in nginx config and during testing!
